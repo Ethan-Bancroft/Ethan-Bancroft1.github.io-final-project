@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.hero {
+    background-color: #305c89;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+#gallery {
+    text-align: center;
+    font-size: large;
+    background-color: #305c89;
+    color: white;
+}
+
+#about{
+    background-color: #305c89;
+    color: white;
+
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#card {
+    border: 2px solid #305c89;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #eef5ff;
+}
+
+.carousel img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: opacity 10.5s ease-in-out;
+}
+
+/* img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+} */
+
+footer {
+    text-align: center;
+    background-color: #305c89;
+    color: white;
+    padding: 15px;
+}
+
+#carousel-caption {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.buttons {
+    margin-top: 10px;
+    
+}
+button {
+    background-color: #f2f3f5;
+    color: rgb(18, 17, 17);
+    border: none;
+    padding: 10px 18px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #0f0f0f;
+    color: white;
+}
